@@ -19,5 +19,5 @@ body {
 /* link styling */
 a {
     color: var(--highlight-color);
-    text-decoration: underline;
+    text-decoration: none;
 }
