@@ -20,4 +20,5 @@ body {
 a {
     color: var(--highlight-color);
     text-decoration: none;
+    cursor: pointer;
 }
