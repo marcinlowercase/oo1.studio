@@ -1,0 +1,23 @@
+/* font declaration */
+@font-face {
+    font-family: "vga";
+    src: url("../assets/fonts/perfect_dos_vga_437.ttf") format("truetype");
+}
+
+/* global page defaults */
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100dvh;
+    background-color: var(--on-highlight);
+    color: var(--off-highlight);
+    font-family: "vga", monospace;
+    font-size: 1.5rem;
+}
+
+/* link styling */
+a {
+    color: var(--highlight-color);
+    text-decoration: underline;
+}

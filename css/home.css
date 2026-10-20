@@ -1,0 +1,21 @@
+/* home container positioning */
+#description {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: var(--layer-corner-radius);
+    margin: var(--padding);
+    width: calc(100% - (var(--padding) * 2));
+    transition: color 500ms;
+}
+
+/* typography helpers */
+.text-justify {
+    text-align: justify;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
